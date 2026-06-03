@@ -101,7 +101,7 @@ export default function Home() {
         <div className="wrap">
           <Reveal>
             <span className="eyebrow">Why Kiwi Detail Co.</span>
-            <h2 className="section-title">Local detailers who actually care</h2>
+            <h2 className="section-title">Local detailers who care</h2>
           </Reveal>
           <div className="grid cols-2" style={{ marginTop: 40 }}>
             {WHY.map((w, i) => (
