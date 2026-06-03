@@ -157,7 +157,7 @@ export const PAIRS = [
     after: '/gallery/outlander-cabin-after.jpg',
   },
   {
-    title: 'Nissan Fuga — Door Card',
+    title: 'Toyota Hilux — Door Card',
     before: '/gallery/hilux-door-before.jpg',
     after: '/gallery/hilux-door-after.jpg',
   },
