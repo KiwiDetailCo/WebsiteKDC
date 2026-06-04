@@ -5,7 +5,7 @@ import * as THREE from 'three'
 
 // --- tweakables for placement ---
 const TARGET_SIZE = 4.6        // largest dimension in world units
-const ROT_Y = 2.5              // facing direction (radians) — tuned to face right + toward camera
+const ROT_Y = -0.3             // facing direction (radians) — nose left + slightly toward camera
 const POS = [1.15, -0.35, 0]   // x (right), y (height), z
 
 function Porsche() {
