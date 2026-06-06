@@ -26,7 +26,7 @@ JOBS = [
     ("car3/After/IMG_3576.JPG",  "hilux-door-after.jpg", []),
     # Outlander rear seats — dirty -> clean (same rear bench)
     ("car2/Before/IMG_3567.JPG", "outlander-rear-before.jpg", []),
-    ("car2/After/IMG_3553.JPG",  "outlander-rear-after.jpg", []),
+    ("IMG_3601.JPG",             "outlander-rear-after.jpg", []),  # user-supplied replacement
     # Outlander front cabin — dusty -> clean (same driver area)
     ("car2/Before/IMG_3566.JPG", "outlander-cabin-before.jpg", []),
     ("car2/After/IMG_3556.JPG",  "outlander-cabin-after.jpg", []),
