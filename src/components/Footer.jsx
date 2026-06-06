@@ -36,7 +36,7 @@ export default function Footer() {
             <a href={BUSINESS.phoneHref}>{BUSINESS.phone}</a>
             <a href={`mailto:${BUSINESS.email}`}>{BUSINESS.email}</a>
             <a style={{ cursor: 'default' }}>Kerikeri, Bay of Islands</a>
-            <a style={{ cursor: 'default' }}>Mon–Sat by appointment</a>
+            <a style={{ cursor: 'default' }}>Mon to Sat by appointment</a>
           </div>
         </div>
 

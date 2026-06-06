@@ -10,7 +10,7 @@ export default function Contact() {
           <Reveal><span className="eyebrow">Get in touch</span></Reveal>
           <Reveal delay={80}><h1>Book your detail</h1></Reveal>
           <Reveal delay={140}>
-            <p>Give us a call or send a quick message with your car and what you’re after — we’ll get back to you with a price and a time.</p>
+            <p>Give us a call or send a quick message with your car and what you’re after, and we’ll get back to you with a price and a time.</p>
           </Reveal>
         </div>
       </header>
@@ -35,7 +35,7 @@ export default function Contact() {
                 </div>
                 <div className="contact-line" style={{ borderBottom: 'none' }}>
                   <span className="ci"><Icon.sparkle /></span>
-                  <span><span className="cl">Hours</span><span className="cv">Mon–Sat, by appointment</span></span>
+                  <span><span className="cl">Hours</span><span className="cv">Mon to Sat, by appointment</span></span>
                 </div>
 
                 <div style={{ marginTop: 22 }}>

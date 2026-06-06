@@ -12,7 +12,7 @@ export default function Gallery() {
           <Reveal><span className="eyebrow">Gallery</span></Reveal>
           <Reveal delay={80}><h1>Before & after</h1></Reveal>
           <Reveal delay={140}>
-            <p>A look at real details from around Kerikeri & the Bay of Islands — before on the left, after on the right. (Number plates blurred for privacy.)</p>
+            <p>A look at real details from around Kerikeri & the Bay of Islands. Before on the left, after on the right. (Number plates blurred for privacy.)</p>
           </Reveal>
         </div>
       </header>

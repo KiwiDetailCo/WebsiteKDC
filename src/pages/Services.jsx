@@ -18,7 +18,7 @@ export default function Services() {
           <Reveal><span className="eyebrow">Services</span></Reveal>
           <Reveal delay={80}><h1>Everything your car needs</h1></Reveal>
           <Reveal delay={140}>
-            <p>We tailor every detail to your vehicle and budget. Mix and match, or go for the full works — here’s what we offer.</p>
+            <p>We tailor every detail to your vehicle and budget. Mix and match, or go for the full works. Here’s what we offer.</p>
           </Reveal>
         </div>
       </header>

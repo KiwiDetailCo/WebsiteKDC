@@ -11,7 +11,7 @@ export default function Pricing() {
           <Reveal><span className="eyebrow">Pricing & Packages</span></Reveal>
           <Reveal delay={80}><h1>Simple, honest pricing</h1></Reveal>
           <Reveal delay={140}>
-            <p>Upfront and affordable, with no hidden costs. Final price depends on the size and condition of your vehicle — we’ll always confirm before we start.</p>
+            <p>Upfront and affordable, with no hidden costs. Final price depends on the size and condition of your vehicle, and we’ll always confirm before we start.</p>
           </Reveal>
         </div>
       </header>
@@ -75,7 +75,7 @@ export default function Pricing() {
           <Reveal>
             <div className="cta-band">
               <h2>Not sure which package?</h2>
-              <p>Tell us about your car and we’ll recommend the right detail — and give you an exact quote.</p>
+              <p>Tell us about your car and we’ll recommend the right detail and give you an exact quote.</p>
               <Link to="/contact" className="btn btn-primary">Get a free quote <Icon.arrow /></Link>
             </div>
           </Reveal>

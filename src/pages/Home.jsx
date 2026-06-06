@@ -79,7 +79,7 @@ export default function Home() {
           <Reveal>
             <span className="eyebrow">See the difference</span>
             <h2 className="section-title">See the transformation</h2>
-            <p className="section-sub">Real cars, real results from around the Bay of Islands — before and after, side by side.</p>
+            <p className="section-sub">Real cars, real results from around the Bay of Islands. Before and after, side by side.</p>
           </Reveal>
           <div className="grid" style={{ marginTop: 40, gap: 30 }}>
             {PAIRS.slice(0, 2).map((p, i) => (

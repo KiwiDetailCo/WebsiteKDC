@@ -7,7 +7,7 @@ export const BUSINESS = {
   tagline: "Northland's premium car detailing",
   location: 'Kerikeri, Bay of Islands',
   blurb:
-    "Local Kerikeri detailers obsessed with making your car shine like new. From a quick refresh to a full showroom-grade detail — inside and out, we treat every vehicle like our own.",
+    "Local Kerikeri detailers obsessed with making your car shine like new. From a quick refresh to a full showroom grade detail, inside and out, we treat every vehicle like our own.",
   email: 'kiwidetail.co@gmail.com',
   phone: '028 4211 713',
   phoneHref: 'tel:+642842117130',
@@ -20,7 +20,7 @@ export const PACKAGES = [
   {
     id: 'basic',
     name: 'Basic Detail',
-    price: '$60–$70',
+    price: '$60 to $90',
     note: 'Price varies with vehicle size',
     tagline: 'Perfect for a quick refresh & regular upkeep.',
     features: [
@@ -35,7 +35,7 @@ export const PACKAGES = [
   {
     id: 'premium',
     name: 'Premium Detail',
-    price: '$140–$190',
+    price: '$140 to $190',
     note: 'Price varies with vehicle size',
     tagline: 'Our most popular deep clean, inside & out.',
     features: [
@@ -54,7 +54,7 @@ export const PACKAGES = [
 export const ADDONS = [
   {
     name: '1-Step Paint Correction',
-    price: '$150–$180',
+    price: '$150 to $180',
     desc: 'Wash, dry, decontaminate and a 1-step machine polish to cut swirls and restore gloss.',
   },
   {
@@ -80,7 +80,7 @@ export const SERVICES = [
     id: 'interior',
     title: 'Interior Detailing',
     icon: 'seat',
-    desc: 'A fresh, sanitised cabin — from vacuuming and upholstery deep-cleaning to dashboard and trim conditioning.',
+    desc: 'A fresh, sanitised cabin, from vacuuming and upholstery deep cleaning to dashboard and trim conditioning.',
   },
   {
     id: 'correction',
@@ -99,7 +99,7 @@ export const SERVICES = [
 export const WHY = [
   {
     title: 'We treat every vehicle like our own',
-    desc: 'Meticulous attention to every nook and cranny — your car gets the same care we give ours.',
+    desc: 'Meticulous attention to every nook and cranny. Your car gets the same care we give ours.',
   },
   {
     title: 'Quality, vehicle-safe products',
@@ -126,7 +126,7 @@ export const FAQS = [
   },
   {
     q: "What's the difference between detailing and cleaning?",
-    a: 'Detailing is far more meticulous than a regular clean — a much more precise job. We focus on every nook and cranny to achieve a true showroom finish.',
+    a: 'Detailing is far more meticulous than a regular clean, a much more precise job. We focus on every nook and cranny to achieve a true showroom finish.',
   },
   {
     q: 'How are you different from an automatic car wash?',
@@ -142,22 +142,22 @@ export const FAQS = [
 // dirty (before) -> clean (after). These shots have no number plates.
 export const PAIRS = [
   {
-    title: 'Toyota Hilux — Driver Footwell',
+    title: 'Toyota Hilux · Driver Footwell',
     before: '/gallery/hilux-foot-before.jpg',
     after: '/gallery/hilux-foot-after.jpg',
   },
   {
-    title: 'Mitsubishi Outlander — Rear Seats',
+    title: 'Mitsubishi Outlander · Rear Seats',
     before: '/gallery/outlander-rear-before.jpg',
     after: '/gallery/outlander-rear-after.jpg',
   },
   {
-    title: 'Mitsubishi Outlander — Front Cabin',
+    title: 'Mitsubishi Outlander · Front Cabin',
     before: '/gallery/outlander-cabin-before.jpg',
     after: '/gallery/outlander-cabin-after.jpg',
   },
   {
-    title: 'Toyota Hilux — Door Card',
+    title: 'Toyota Hilux · Door Card',
     before: '/gallery/hilux-door-before.jpg',
     after: '/gallery/hilux-door-after.jpg',
   },
@@ -165,13 +165,13 @@ export const PAIRS = [
 
 // Finished results (number plates blurred where visible).
 export const SHOWCASE = [
-  { src: '/gallery/audi-rear-after.jpg', label: 'Audi A5 — gloss-restored paint' },
-  { src: '/gallery/audi-side-after.jpg', label: 'Audi A5 — mirror finish' },
-  { src: '/gallery/outlander-front-after.jpg', label: 'Outlander — fresh exterior' },
-  { src: '/gallery/outlander-wheel-after.jpg', label: 'Gloss-black wheel detail' },
+  { src: '/gallery/audi-rear-after.jpg', label: 'Audi A5 · gloss restored paint' },
+  { src: '/gallery/audi-side-after.jpg', label: 'Audi A5 · mirror finish' },
+  { src: '/gallery/outlander-front-after.jpg', label: 'Outlander · fresh exterior' },
+  { src: '/gallery/outlander-wheel-after.jpg', label: 'Gloss black wheel detail' },
   { src: '/gallery/audi-wheel-after.jpg', label: 'Wheels & arches detailed' },
-  { src: '/gallery/outlander-side-after.jpg', label: 'Outlander — boot cleaned & reset' },
-  { src: '/gallery/nissan-side-after.jpg', label: 'Nissan Fuga — foam bath' },
+  { src: '/gallery/outlander-side-after.jpg', label: 'Outlander · boot cleaned & reset' },
+  { src: '/gallery/nissan-side-after.jpg', label: 'Nissan Fuga · foam bath' },
   { src: '/gallery/nissan-interior-after.jpg', label: 'Leather cleaned & conditioned' },
-  { src: '/gallery/audi-front-after.jpg', label: 'Audi A5 — ready to roll' },
+  { src: '/gallery/audi-front-after.jpg', label: 'Audi A5 · ready to roll' },
 ]

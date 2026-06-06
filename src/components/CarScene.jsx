@@ -55,11 +55,24 @@ export default function CarScene() {
         gl={{ antialias: true, alpha: true }}
       >
         <color attach="background" args={['#08080a']} />
-        <fog attach="fog" args={['#08080a', 10, 22]} />
-        <ambientLight intensity={0.4} />
-        <spotLight position={[6, 8, 4]} angle={0.5} penumbra={1} intensity={2.4} castShadow color="#ffffff" />
-        <pointLight position={[-6, 2, -4]} intensity={2.4} color="#8b3fd9" />
-        <pointLight position={[4, 1, -5]} intensity={1.4} color="#5b8cff" />
+        <fog attach="fog" args={['#08080a', 11, 24]} />
+        <ambientLight intensity={0.6} />
+        <hemisphereLight args={['#cdd6ff', '#0a0a0a', 0.6]} />
+        {/* key light (soft shadows, biased to avoid acne) */}
+        <spotLight
+          position={[6, 9, 5]}
+          angle={0.6}
+          penumbra={1}
+          intensity={2.0}
+          castShadow
+          color="#ffffff"
+          shadow-bias={-0.0004}
+          shadow-mapSize={[2048, 2048]}
+        />
+        {/* front fill toward the camera so the nose isn't lost in shadow */}
+        <directionalLight position={[2, 3.5, 7]} intensity={1.25} color="#ffffff" />
+        <pointLight position={[-6, 2, -4]} intensity={1.7} color="#8b3fd9" />
+        <pointLight position={[4, 1, -5]} intensity={1.0} color="#5b8cff" />
         <Suspense fallback={null}>
           <Porsche />
           <Environment preset="night" />
