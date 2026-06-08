@@ -67,6 +67,11 @@ export const ADDONS = [
     price: '$50',
     desc: 'Degrease, clean and dress the engine bay for a tidy, factory-fresh look.',
   },
+  {
+    name: 'Dog Hair Removal',
+    price: '+$40',
+    desc: 'Thorough removal of dog and pet hair from seats, carpets and boot.',
+  },
 ]
 
 export const SERVICES = [

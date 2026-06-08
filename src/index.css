@@ -43,6 +43,20 @@ img { display: block; max-width: 100%; }
   inset: 0;
   z-index: 0;
   pointer-events: none;
+  overflow: hidden;
+}
+.bg-car {
+  position: absolute;
+  right: -3%;
+  top: 50%;
+  transform: translateY(-48%);
+  width: min(66vw, 1040px);
+  height: auto;
+  opacity: 0.96;
+  filter: drop-shadow(0 40px 60px rgba(0, 0, 0, 0.6));
+}
+@media (max-width: 760px) {
+  .bg-car { width: 116vw; right: -22%; top: 38%; opacity: 0.5; }
 }
 .scrim {
   position: fixed;
