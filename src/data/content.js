@@ -10,7 +10,7 @@ export const BUSINESS = {
     "Local Kerikeri detailers obsessed with making your car shine like new. From a quick refresh to a full showroom grade detail, inside and out, we treat every vehicle like our own.",
   email: 'kiwidetail.co@gmail.com',
   phone: '028 4211 713',
-  phoneHref: 'tel:+642842117130',
+  phoneHref: 'tel:+64284211713',
   facebook: 'https://www.facebook.com/share/17qrRBsTyj/',
   instagram:
     'https://www.instagram.com/kiwidetail.co?igsh=MXEyc2V2OG14Y24ydQ==',
