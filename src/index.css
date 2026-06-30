@@ -227,7 +227,19 @@ section { position: relative; }
 .price-card .ptag { color: var(--muted); font-size: 14px; margin-top: 6px; }
 .price-card .price { font-family: 'Sora'; font-size: 42px; font-weight: 800; margin: 18px 0 2px; }
 .price-card .pnote { color: var(--muted); font-size: 13px; }
-.price-card ul { list-style: none; padding: 0; margin: 24px 0; display: grid; gap: 12px; }
+.price-card .tiers {
+  margin: 20px 0 4px; border: 1px solid var(--line); border-radius: 12px; overflow: hidden;
+}
+.price-card .tier {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 11px 16px; font-size: 15px;
+}
+.price-card .tier:not(:last-child) { border-bottom: 1px solid var(--line); }
+.price-card .tier-size { color: var(--muted); }
+.price-card .tier-price { font-family: 'Sora'; font-weight: 700; color: var(--text); }
+.price-card.featured .tier-price { color: var(--purple-bright); }
+.price-card ul { list-style: none; padding: 0; margin: 22px 0; display: grid; gap: 12px; }
+.price-card ul::before { content: "What's included"; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
 .price-card li { display: flex; gap: 11px; align-items: flex-start; font-size: 15px; color: #d7d7dd; }
 .price-card li svg { flex: 0 0 auto; margin-top: 2px; color: var(--purple-bright); }
 .price-card .btn { width: 100%; justify-content: center; margin-top: auto; }

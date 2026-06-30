@@ -25,8 +25,16 @@ export default function Pricing() {
                   {p.featured && <span className="badge">Most popular</span>}
                   <h3>{p.name}</h3>
                   <div className="ptag">{p.tagline}</div>
-                  <div className="price">{p.price}</div>
-                  <div className="pnote">{p.note}</div>
+                  <div className="price">From {p.from}</div>
+                  <div className="pnote">priced by vehicle size</div>
+                  <div className="tiers">
+                    {p.tiers.map((t) => (
+                      <div className="tier" key={t.size}>
+                        <span className="tier-size">{t.size}</span>
+                        <span className="tier-price">{t.price}</span>
+                      </div>
+                    ))}
+                  </div>
                   <ul>
                     {p.features.map((f) => (
                       <li key={f}><Icon.check /> {f}</li>

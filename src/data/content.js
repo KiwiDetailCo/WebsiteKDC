@@ -20,9 +20,14 @@ export const PACKAGES = [
   {
     id: 'basic',
     name: 'Basic Detail',
-    price: '$60 to $90',
-    note: 'Price varies with vehicle size',
+    from: '$90',
     tagline: 'Perfect for a quick refresh & regular upkeep.',
+    tiers: [
+      { size: 'Small car', price: '$90' },
+      { size: 'Medium', price: '$110' },
+      { size: 'Large', price: '$130' },
+      { size: 'Extra large', price: '$150' },
+    ],
     features: [
       'Full interior vacuum',
       'Surface wipe down',
@@ -35,9 +40,14 @@ export const PACKAGES = [
   {
     id: 'premium',
     name: 'Premium Detail',
-    price: '$140 to $190',
-    note: 'Price varies with vehicle size',
+    from: '$160',
     tagline: 'Our most popular deep clean, inside & out.',
+    tiers: [
+      { size: 'Small car', price: '$160' },
+      { size: 'Medium', price: '$190' },
+      { size: 'Large', price: '$230' },
+      { size: 'Extra large', price: '$270' },
+    ],
     features: [
       'Full interior vacuum',
       'Surface wipe down',
