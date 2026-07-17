@@ -244,6 +244,28 @@ section { position: relative; }
 .price-card li svg { flex: 0 0 auto; margin-top: 2px; color: var(--purple-bright); }
 .price-card .btn { width: 100%; justify-content: center; margin-top: auto; }
 
+/* paint correction matrix */
+.correction-table {
+  border: 1px solid var(--line); border-radius: 16px; overflow: hidden;
+  background: var(--panel); max-width: 720px;
+}
+.correction-table .ct-row {
+  display: grid; grid-template-columns: 1.3fr 1fr 1fr; align-items: center;
+  padding: 15px 22px;
+}
+.correction-table .ct-row:not(:last-child) { border-bottom: 1px solid var(--line); }
+.correction-table .ct-head {
+  background: rgba(139, 63, 217, 0.12);
+  font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted);
+}
+.correction-table .ct-head span { font-weight: 700; }
+.correction-table .ct-size { color: #d7d7dd; font-size: 15px; }
+.correction-table .ct-price { font-family: 'Sora'; font-weight: 700; color: var(--purple-bright); }
+@media (max-width: 480px) {
+  .correction-table .ct-row { padding: 13px 16px; }
+  .correction-table .ct-head { font-size: 10px; letter-spacing: 0.04em; }
+}
+
 .addon-row {
   display: flex; align-items: center; justify-content: space-between; gap: 18px;
   padding: 20px 24px; border: 1px solid var(--line); border-radius: 14px; background: var(--panel);

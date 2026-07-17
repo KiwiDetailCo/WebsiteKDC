@@ -61,12 +61,18 @@ export const PACKAGES = [
   },
 ]
 
+// Paint correction, priced by vehicle size and number of stages.
+export const CORRECTION = {
+  blurb:
+    'Wash, decontaminate and machine polish to cut swirls, scratches and haze back to a deep, glossy finish. Priced by vehicle size.',
+  sizes: ['Small car', 'Medium', 'Large', 'Extra large'],
+  levels: [
+    { name: '1-Step Correction', prices: ['$150', '$180', '$220', '$250'] },
+    { name: '2-Step Correction', prices: ['$300', '$350', '$400', '$450'] },
+  ],
+}
+
 export const ADDONS = [
-  {
-    name: '1-Step Paint Correction',
-    price: '$150 to $180',
-    desc: 'Wash, dry, decontaminate and a 1-step machine polish to cut swirls and restore gloss.',
-  },
   {
     name: 'Headlight Restoration',
     price: '$30 each',

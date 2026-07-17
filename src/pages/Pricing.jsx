@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import Reveal from '../components/Reveal'
 import { Icon } from '../components/Icons'
-import { PACKAGES, ADDONS } from '../data/content'
+import { PACKAGES, ADDONS, CORRECTION } from '../data/content'
 
 export default function Pricing() {
   return (
@@ -52,6 +52,32 @@ export default function Pricing() {
             <p style={{ color: 'var(--muted)', fontSize: 14, marginTop: 22, textAlign: 'center' }}>
               * Prices in NZD and may vary depending on the size and condition of your vehicle.
             </p>
+          </Reveal>
+        </div>
+      </section>
+
+      <section className="block tight">
+        <div className="wrap">
+          <Reveal>
+            <span className="eyebrow">Paint correction</span>
+            <h2 className="section-title">Cut swirls, restore gloss</h2>
+            <p className="section-sub">{CORRECTION.blurb}</p>
+          </Reveal>
+          <Reveal delay={100}>
+            <div className="correction-table" style={{ marginTop: 34 }}>
+              <div className="ct-row ct-head">
+                <span>Vehicle size</span>
+                {CORRECTION.levels.map((l) => <span key={l.name}>{l.name}</span>)}
+              </div>
+              {CORRECTION.sizes.map((s, i) => (
+                <div className="ct-row" key={s}>
+                  <span className="ct-size">{s}</span>
+                  {CORRECTION.levels.map((l) => (
+                    <span className="ct-price" key={l.name}>{l.prices[i]}</span>
+                  ))}
+                </div>
+              ))}
+            </div>
           </Reveal>
         </div>
       </section>
